@@ -1,0 +1,19 @@
+<div>
+<h1>Stupid Coaching</h1>
+</div>
+
+<div class="card mb-3 form-text" style="width: 18rem;">
+  <div class="card-body">
+        <h5 class="card-title"><%= @question %></h5>
+        <p class="card-text text-center"> - You</p>
+  </div>
+</div>
+
+<div class="card mb-3 form-text" style="width: 18rem;">
+  <div class="card-body bg-warning">
+        <h5 class="card-title"><%= @answer %></h5>
+        <p class="card-text text-center"> - Your Coach</p>
+  </div>
+</div>
+<div>
+<%= link_to "Ask a new question!", "/ask" %>
